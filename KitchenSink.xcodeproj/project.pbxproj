@@ -21,6 +21,7 @@
 		58D8255C17F43E010092FD70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D8253E17F43E000092FD70 /* UIKit.framework */; };
 		58D8256417F43E010092FD70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58D8256217F43E010092FD70 /* InfoPlist.strings */; };
 		58D8256617F43E010092FD70 /* KitchenSinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D8256517F43E010092FD70 /* KitchenSinkTests.m */; };
+		58D8257117F43EA10092FD70 /* AskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D8257017F43EA10092FD70 /* AskerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		58D8256117F43E010092FD70 /* KitchenSinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KitchenSinkTests-Info.plist"; sourceTree = "<group>"; };
 		58D8256317F43E010092FD70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58D8256517F43E010092FD70 /* KitchenSinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitchenSinkTests.m; sourceTree = "<group>"; };
+		58D8256F17F43EA10092FD70 /* AskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskerViewController.h; sourceTree = "<group>"; };
+		58D8257017F43EA10092FD70 /* AskerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +115,9 @@
 		58D8254017F43E000092FD70 /* KitchenSink */ = {
 			isa = PBXGroup;
 			children = (
-				58D8254917F43E000092FD70 /* KitchenSinkAppDelegate.h */,
-				58D8254A17F43E000092FD70 /* KitchenSinkAppDelegate.m */,
 				58D8254C17F43E000092FD70 /* Main.storyboard */,
+				58D8256F17F43EA10092FD70 /* AskerViewController.h */,
+				58D8257017F43EA10092FD70 /* AskerViewController.m */,
 				58D8254F17F43E000092FD70 /* KitchenSinkViewController.h */,
 				58D8255017F43E000092FD70 /* KitchenSinkViewController.m */,
 				58D8255217F43E000092FD70 /* Images.xcassets */,
@@ -126,6 +129,8 @@
 		58D8254117F43E000092FD70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				58D8254917F43E000092FD70 /* KitchenSinkAppDelegate.h */,
+				58D8254A17F43E000092FD70 /* KitchenSinkAppDelegate.m */,
 				58D8254217F43E000092FD70 /* KitchenSink-Info.plist */,
 				58D8254317F43E000092FD70 /* InfoPlist.strings */,
 				58D8254617F43E000092FD70 /* main.m */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58D8255117F43E000092FD70 /* KitchenSinkViewController.m in Sources */,
+				58D8257117F43EA10092FD70 /* AskerViewController.m in Sources */,
 				58D8254B17F43E000092FD70 /* KitchenSinkAppDelegate.m in Sources */,
 				58D8254717F43E000092FD70 /* main.m in Sources */,
 			);

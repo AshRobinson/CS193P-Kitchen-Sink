@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KitchenSinkViewController : UIViewController
+@interface KitchenSinkViewController : UIViewController <UIActionSheetDelegate, UIToolbarDelegate>
 
 @end
